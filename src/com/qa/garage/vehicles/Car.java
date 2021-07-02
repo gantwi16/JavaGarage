@@ -1,4 +1,4 @@
-package com.qa.garage;
+package com.qa.garage.vehicles;
 
 // Car is-a Vehicle
 public class Car extends Vehicle {
@@ -12,7 +12,7 @@ public class Car extends Vehicle {
 		
 	}
 	
-	public Car(String carMake, String carModel, int carAge, double carPrice) {
+	public Car(String carMake, String carModel, int carAge, double carPrice, String carColour) {
 		this.carAge = carAge;
 		this.carMake = carMake;
 		this.carModel = carModel;

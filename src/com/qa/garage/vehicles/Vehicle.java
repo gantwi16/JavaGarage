@@ -1,4 +1,4 @@
-package com.qa.garage;
+package com.qa.garage.vehicles;
 
 public class Vehicle {
 	
@@ -16,6 +16,14 @@ public class Vehicle {
 			this.vehicleColour = vehicleColour;
 			this.vehicleSize = vehicleSize;
 			this.vehicleType = vehicleType;
+		}
+		
+		public double cost() {
+			if (vehicleAge == 4) {
+				return vehicleAge * 1000;
+			} else  {
+				return vehicleAge * 100;
+			}
 		}
 		
 		public String getVehicleType() {

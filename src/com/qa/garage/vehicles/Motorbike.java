@@ -1,4 +1,4 @@
-package com.qa.garage;
+package com.qa.garage.vehicles;
 
 // Motorbike is-a Bike, Bike is-a Vehicle, Vehicle is-a Object
 public class Motorbike extends Bike {
